@@ -1,24 +1,31 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
+type: software
 title: "Hybrid Optimization Framework for Single-Qubit Control"
+abstract: >
+  Implementation and simulation code for a hybrid optimization framework
+  for single-qubit control. The repository includes Lindblad open-system
+  dynamics, Fourier IQ pulse parametrization, Nelder-Mead and L-BFGS-B
+  optimizers, an RNN seeding model, and benchmarking/fidelity analysis
+  scripts to reproduce the results described in the accompanying thesis.
 authors:
   - family-names: "Carvalho Brito"
     given-names: "Denys Derlian"
     orcid: "https://orcid.org/0009-0007-1669-0340"
-    affiliation: "Instituto Tecnológico de Aeronáutica (ITA)"
+    affiliation: "Instituto Tecnologico de Aeronautica (ITA), Sao Jose dos Campos, Brazil"
   - family-names: "Chaves"
-    given-names: "André Jorge Carvalho"
+    given-names: "Andre Jorge Carvalho"
     orcid: "https://orcid.org/0000-0003-1381-8568"
-    affiliation: "Instituto Tecnológico de Aeronáutica (ITA)"
+    affiliation: "Instituto Tecnologico de Aeronautica (ITA), Sao Jose dos Campos, Brazil"
 version: "1.0.2"
 date-released: "2025-11-01"
 license: "MIT"
-abstract: >
-  Implementation and simulation code for the Hybrid Optimization Framework for Single-Qubit Control,
-  including Lindblad dynamics, Fourier IQ pulse parametrization, Nelder–Mead and L-BFGS-B optimizers,
-  and an RNN seeding model. Includes examples and scripts to reproduce the thesis results.
+repository-code: "https://github.com/DenysDerlian/hybrid_control_framework_of_a_single-quit-resonator_driven_system"
 keywords:
-  - "quantum control"
-  - "single-qubit"
-  - "optimization"
-repository-code: "https://github.com/DenysDerlian/hybrid_control_framework_of_a_single-qubit-resonator_driven_system"
+  - quantum control
+  - single-qubit
+  - Lindblad master equation
+  - optimization
+  - Nelder-Mead
+  - L-BFGS-B
+  - RNN
