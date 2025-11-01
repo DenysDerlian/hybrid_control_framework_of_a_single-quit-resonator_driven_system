@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its results in your research, please cite it using the metadata below.
+title: Quantum Control Optimization for Single-Qubit Gates (X, Y, X90, Y90)
+abstract: >-
+  A modular research codebase for optimizing and benchmarking single-qubit gates using IQ Fourier controls,
+  QuTiP-based dynamics, PTM-inspired costs, and simplified randomized benchmarking-style fidelity analysis.
+authors:
+  - family-names: Derlian
+    given-names: Denys
+    orcid: https://orcid.org/0000-0000-0000-0000
+keywords:
+  - quantum control
+  - qubit
+  - qutip
+  - randomized benchmarking
+  - fourier control
+  - iq control
+license: MIT
+version: 1.0.0
+date-released: 2025-11-01
+repository-code: https://github.com/your-org/your-repo
+url: https://github.com/your-org/your-repo
+preferred-citation:
+  type: software
+  title: Quantum Control Optimization for Single-Qubit Gates (X, Y, X90, Y90)
+  authors:
+    - family-names: Derlian
+      given-names: Denys
+  year: 2025

@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+.dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Results and large artifacts (regenerate as needed)
+results/
+
+# Payloads and intermediate caches
+data/payloads/
+
+# Logs and temp
+*.log
+*.tmp
+*.cache/
+.cache/
+
+# LaTeX build artifacts (if any)
+*.aux
+*.bbl
+*.blg
+*.toc
+*.out
+*.lof
+*.lot
+
+# IDE
+.vscode/
+.idea/
+
+# Optional: notebooks outputs exported
+*.png
+*.pdf
+
+# Keep sample datasets in data/, but you may ignore local scratch files
+# ! data/*.npz  # intentionally kept under version control
