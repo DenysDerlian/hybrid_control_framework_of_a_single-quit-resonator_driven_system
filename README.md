@@ -1,6 +1,6 @@
 # Quantum Control Optimization for Single-Qubit Gates (X, Y, X90, Y90)
 
-This repository contains a modular, research-oriented framework for optimizing and benchmarking single-qubit control pulses in a driven cavity–qubit system. It implements IQ (two-quadrature) Fourier controls, QuTiP-based open-system dynamics, PTM-style gate costs, and a simplified randomized benchmarking-style sequence fidelity analysis. The work demonstrated here corresponds to the accompanying document `tese.pdf` (see Citation).
+This repository contains a modular, research-oriented framework for optimizing and benchmarking single-qubit control pulses in a driven cavity–qubit system. It implements IQ (two-quadrature) Fourier controls, QuTiP-based open-system dynamics, PTM-style gate costs, and a simplified randomized benchmarking-style sequence fidelity analysis. For citation and archival reference, a Zenodo DOI is available: <https://doi.org/10.5281/zenodo.17499171>.
 
 Key features:
 
@@ -26,7 +26,8 @@ public/
 ├─ data/                       # Sample .npz payloads (kept small)
 │  └─ payloads/                # Large payloads (ignored by Git)
 ├─ results/                    # Generated results (ignored by Git)
-├─ 1-...ipynb .. 5-...ipynb    # Notebooks mirroring paper workflows
+├─ 1-...ipynb .. 5-...ipynb    # Notebooks demonstrating optimization workflows
+├─ create_dataset.ipynb        # Notebook to create/generate the example dataset
 ├─ random_benchmarking_*.py    # Script variants (optional)
 ├─ run_rnn_training.py         # Optional NN-assisted initial guesses
 ├─ README.md                   # This file
@@ -96,15 +97,19 @@ plotter = QuantumControlPlotter(show_plots=True, use_latex=False, figure_format=
 # You can simulate and plot Bloch components using the notebook examples in 4-Quantum_Control_Optimization-Y.ipynb
 ```
 
-## Reproducing the paper workflows (Notebooks)
+## Reproducing the workflows (Notebooks)
 
-The numbered notebooks mirror the experiments described in `tese.pdf`:
+The numbered notebooks demonstrate the gate-optimization and evaluation workflows:
 
 - `1-Quantum_Control_Optimization-DummySignals.ipynb`
 - `2-Quantum_Control_Optimization-X.ipynb`
 - `3-Quantum_Control_Optimization-X90.ipynb`
 - `4-Quantum_Control_Optimization-Y.ipynb`
 - `5-Quantum_Control_Optimization-Y90.ipynb`
+
+Additionally:
+
+- `create_dataset.ipynb` — builds and saves the example dataset used by the notebooks under `data/` and `results/`.
 
 Open them in Jupyter Lab/VS Code and run sequentially. Each notebook:
 
@@ -114,6 +119,7 @@ Open them in Jupyter Lab/VS Code and run sequentially. Each notebook:
 - Generates figures with `src/plotting.py`
 
 Outputs and intermediate artifacts are written to `results/` (ignored by Git) and small curated payloads in `data/`.
+The dataset creation notebook (`create_dataset.ipynb`) exports reproducible payloads into `data/` (and larger run artifacts into `data/payloads/`).
 
 ## Data and results
 
@@ -122,9 +128,11 @@ Outputs and intermediate artifacts are written to `results/` (ignored by Git) an
 
 ## Citing
 
-If this work is useful, please cite it. See `CITATION.cff` for a ready-to-use citation (supported by GitHub’s “Cite this repository”). If you prefer, cite the associated document:
+If this work is useful, please cite it. See `CITATION.cff` for a ready-to-use citation (GitHub’s “Cite this repository”) and the Zenodo record:
 
-- `tese.pdf` — details the motivation, methodology, and experiments for this repository.
+- DOI: <https://doi.org/10.5281/zenodo.17499171>
+- Author: Denys Derlian Carvalho Brito (ORCID: <https://orcid.org/0009-0007-1669-0340>)
+- Advisor: André Jorge Carvalho Chaves (ORCID: <https://orcid.org/0000-0003-1381-8568>)
 
 ## License
 

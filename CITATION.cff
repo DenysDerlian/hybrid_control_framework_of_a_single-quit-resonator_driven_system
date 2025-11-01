@@ -2,7 +2,7 @@
 # See: https://citation-file-format.github.io/
 
 cff-version: 1.2.0
-message: "If you use this software, please cite both the work and the software."
+message: "If you use this software, please cite the software using the DOI below."
 type: software
 title: "Hybrid Control Framework of a Single-Qubit-Resonator Driven System"
 abstract: >
@@ -24,6 +24,11 @@ authors:
     affiliation: "Departamento de Fisica, Instituto Tecnológico de Aeronáutica, São José dos Campos, São Paulo, Brasil"
 
 repository-code: "https://github.com/DenysDerlian/hybrid_control_framework_of_a_single-quit-resonator_driven_system"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.17499171"
+  - type: url
+    value: "https://doi.org/10.5281/zenodo.17499171"
 license: MIT
 version: 1.0.3 # <-- UPDATED for the new release
 date-released: "2025-11-01" # <-- UPDATED to match the new release date
@@ -60,3 +65,4 @@ preferred-citation:
   institution: "Instituto Tecnológico de Aeronáutica"
   year: 2025 
   notes: "Bachelor's graduation work (Trabalho de Conclusão de Curso)"
+  doi: "10.5281/zenodo.17499171"
