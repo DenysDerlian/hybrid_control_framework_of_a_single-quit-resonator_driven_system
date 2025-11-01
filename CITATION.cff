@@ -25,8 +25,8 @@ authors:
 
 repository-code: "https://github.com/DenysDerlian/hybrid_control_framework_of_a_single-quit-resonator_driven_system"
 license: MIT
-version: 1.0.2
-date-released: "2025-10-23" # Kept from template, adjust if needed
+version: 1.0.3 # <-- UPDATED for the new release
+date-released: "2025-11-01" # <-- UPDATED to match the new release date
 
 keywords:
   - quantum computing
@@ -44,10 +44,10 @@ references:
         given-names: "André Jorge Carvalho"
         orcid: "https://orcid.org/0000-0003-1381-8568"
     institution: "Instituto Tecnológico de Aeronáutica"
-    department: "Departamento de Fisica"
     location: "São José dos Campos, São Paulo, Brasil"
-    year: 2025 # Assumed based on release date
+    year: 2025 
     notes: "Bachelor's graduation work (Trabalho de Conclusão de Curso)"
+    # <-- REMOVED 'department' field
 
 preferred-citation:
   type: thesis
@@ -58,5 +58,5 @@ preferred-citation:
     - family-names: "Chaves"
       given-names: "André Jorge Carvalho"
   institution: "Instituto Tecnológico de Aeronáutica"
-  year: 2025 # Assumed based on release date
+  year: 2025 
   notes: "Bachelor's graduation work (Trabalho de Conclusão de Curso)"
