@@ -1,31 +1,62 @@
-cff-version: 1.1.0
-message: "If you use this software, please cite it as below."
+# Citation File Format (CFF) for this computational supplement
+# See: https://citation-file-format.github.io/
+
+cff-version: 1.2.0
+message: "If you use this software, please cite both the work and the software."
 type: software
-title: "Hybrid Optimization Framework for Single-Qubit Control"
+title: "Hybrid Control Framework of a Single-Qubit-Resonator Driven System"
 abstract: >
-  Implementation and simulation code for a hybrid optimization framework
-  for single-qubit control. The repository includes Lindblad open-system
-  dynamics, Fourier IQ pulse parametrization, Nelder-Mead and L-BFGS-B
-  optimizers, an RNN seeding model, and benchmarking/fidelity analysis
-  scripts to reproduce the results described in the accompanying thesis.
+  Software and computational framework developed for the Bachelor's graduation
+  work 'CONTROL OF SUPERCONDUCTING QUBIT SYSTEMS FOR OPERATIONAL APPLICATIONS
+  IN QUANTUM TECHNOLOGIES'. This repository provides the code for simulating
+  and controlling superconducting qubit systems.
+
 authors:
   - family-names: "Carvalho Brito"
     given-names: "Denys Derlian"
     orcid: "https://orcid.org/0009-0007-1669-0340"
-    affiliation: "Instituto Tecnologico de Aeronautica (ITA), Sao Jose dos Campos, Brazil"
+    email: "derlian@ita.com"
+    affiliation: "Departamento de Fisica, Instituto Tecnológico de Aeronáutica, São José dos Campos, São Paulo, Brasil"
   - family-names: "Chaves"
-    given-names: "Andre Jorge Carvalho"
+    given-names: "André Jorge Carvalho"
     orcid: "https://orcid.org/0000-0003-1381-8568"
-    affiliation: "Instituto Tecnologico de Aeronautica (ITA), Sao Jose dos Campos, Brazil"
-version: "1.0.2"
-date-released: "2025-11-01"
-license: "MIT"
+    email: "andrejck@ita.br"
+    affiliation: "Departamento de Fisica, Instituto Tecnológico de Aeronáutica, São José dos Campos, São Paulo, Brasil"
+
 repository-code: "https://github.com/DenysDerlian/hybrid_control_framework_of_a_single-quit-resonator_driven_system"
+license: MIT
+version: 1.0.2
+date-released: "2025-10-23" # Kept from template, adjust if needed
+
 keywords:
+  - quantum computing
+  - superconducting qubits
   - quantum control
-  - single-qubit
-  - Lindblad master equation
-  - optimization
-  - Nelder-Mead
-  - L-BFGS-B
-  - RNN
+
+references:
+  - type: thesis
+    title: "CONTROL OF SUPERCONDUCTING QUBIT SYSTEMS FOR OPERATIONAL APPLICATIONS IN QUANTUM TECHNOLOGIES"
+    authors:
+      - family-names: "Carvalho Brito"
+        given-names: "Denys Derlian"
+        orcid: "https://orcid.org/0009-0007-1669-0340"
+      - family-names: "Chaves"
+        given-names: "André Jorge Carvalho"
+        orcid: "https://orcid.org/0000-0003-1381-8568"
+    institution: "Instituto Tecnológico de Aeronáutica"
+    department: "Departamento de Fisica"
+    location: "São José dos Campos, São Paulo, Brasil"
+    year: 2025 # Assumed based on release date
+    notes: "Bachelor's graduation work (Trabalho de Conclusão de Curso)"
+
+preferred-citation:
+  type: thesis
+  title: "CONTROL OF SUPERCONDUCTING QUBIT SYSTEMS FOR OPERATIONAL APPLICATIONS IN QUANTUM TECHNOLOGIES"
+  authors:
+    - family-names: "Carvalho Brito"
+      given-names: "Denys Derlian"
+    - family-names: "Chaves"
+      given-names: "André Jorge Carvalho"
+  institution: "Instituto Tecnológico de Aeronáutica"
+  year: 2025 # Assumed based on release date
+  notes: "Bachelor's graduation work (Trabalho de Conclusão de Curso)"
