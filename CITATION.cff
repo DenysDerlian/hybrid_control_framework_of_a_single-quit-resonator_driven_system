@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Hybrid Optimization Framework for Single-Qubit Control"
 authors:
-  - family-names: "Brito"
-    given-names: "Denys Derlian Carvalho"
+  - family-names: "Carvalho Brito"
+    given-names: "Denys Derlian"
     orcid: "https://orcid.org/0009-0007-1669-0340"
     affiliation: "Instituto Tecnológico de Aeronáutica (ITA)"
   - family-names: "Chaves"
@@ -12,22 +12,13 @@ authors:
     affiliation: "Instituto Tecnológico de Aeronáutica (ITA)"
 version: "1.0.2"
 date-released: "2025-11-01"
-doi: "10.5281/zenodo.PENDING"
 license: "MIT"
-repository-code: "https://github.com/DenysDerlian/hybrid_control_framework_of_a_single-qubit-resonator_driven_system"
 abstract: >
-  This repository contains the implementation of a Hybrid Optimization Framework for Single-Qubit Control,
-  developed as part of an undergraduate thesis at the Instituto Tecnológico de Aeronáutica (ITA).
-  The framework integrates Nelder–Mead, L-BFGS-B, and RNN-based optimization methods
-  for pulse parameterization and control-field optimization of superconducting qubit systems
-  modeled under the Lindblad master equation. Benchmarking and fidelity estimation routines
-  are included for quantitative performance evaluation.
+  Implementation and simulation code for the Hybrid Optimization Framework for Single-Qubit Control,
+  including Lindblad dynamics, Fourier IQ pulse parametrization, Nelder–Mead and L-BFGS-B optimizers,
+  and an RNN seeding model. Includes examples and scripts to reproduce the thesis results.
 keywords:
   - "quantum control"
-  - "single-qubit optimization"
-  - "Lindblad master equation"
-  - "Nelder–Mead"
-  - "L-BFGS-B"
-  - "RNN"
-  - "hybrid optimization"
-  - "superconducting qubits"
+  - "single-qubit"
+  - "optimization"
+repository-code: "https://github.com/DenysDerlian/hybrid_control_framework_of_a_single-qubit-resonator_driven_system"
